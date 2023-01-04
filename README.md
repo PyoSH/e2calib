@@ -87,6 +87,12 @@ If you have an older Metavision version (for example Metavision 2.0), first conv
 
 *Note* : The '.dat' file format takes up more space on the disk but for metavision 2.0, the python API can only read '.dat' format.
 
+```bash
+pip3 install rospkg
+pip3 install pycryptodomex
+pip3 install gnupg
+```
+
 ### Conversion to H5 from Pocolog/Rock files
 
 Pocolog is the file format for logging data in [Rock](https://www.rock-robotics.org/). It is equivalent to the bag format in [ROS](https://www.ros.org/). More specifically [Pocolog](https://github.com/rock-core/tools-pocolog) is the tool to manupilate [log](https://github.com/rock-core/tools-logger) files.
